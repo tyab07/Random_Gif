@@ -1,0 +1,61 @@
+.random {
+  width: 60%;
+  background-color: #6051A7;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+.rheading {
+  height: 50px;
+  background-color: aliceblue;
+  border: 1px solid rgb(231, 142, 8);
+  width: 70%;
+  border-radius: 10px;
+  text-align: center;
+  font-size: xx-large;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 3px 3px 3px rgb(248, 203, 57);
+  color: rgb(226, 55, 12);
+  text-shadow: 2px 2px 4px rgb(226, 87, 87);
+}
+
+.rgenerate {
+  height: 50px;
+  background-color: aliceblue;
+  border: 1px solid rgb(231, 142, 8);
+  width: 70%;
+  border-radius: 10px;
+  text-align: center;
+  font-size: xx-large;
+  font-weight: bolder;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 3px 3px 3px rgb(248, 203, 57);
+  color: rgb(6, 170, 0);
+  text-shadow: 2px 2px 4px rgb(226, 87, 87);
+  margin: 20px;
+}
+
+@media (max-width: 768px) {
+  .random {
+    width: 90%;
+  }
+  .rheading, .rgenerate {
+    width: 100%;
+    font-size: large;
+  }
+}
+
+@media (max-width: 480px) {
+  .rheading, .rgenerate {
+    font-size: medium;
+    height: 40px;
+  }
+}

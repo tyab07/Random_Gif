@@ -1,0 +1,92 @@
+.Srandom {
+  width: 60%;
+  background-color: #2e812e;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+.Sheading {
+  height: 50px;
+  background-color: aliceblue;
+  border: 1px solid rgb(231, 142, 8);
+  width: 70%;
+  border-radius: 10px;
+  text-align: center;
+  font-size: xx-large;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 3px 3px 3px rgb(248, 203, 57);
+  color: rgb(226, 55, 12);
+  text-shadow: 2px 2px 4px rgb(226, 87, 87);
+}
+
+.Sgenerate {
+  height: 50px;
+  background-color: aliceblue;
+  border: 1px solid rgb(231, 142, 8);
+  width: 70%;
+  border-radius: 10px;
+  text-align: center;
+  font-size: xx-large;
+  font-weight: bolder;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 3px 3px 3px rgb(248, 203, 57);
+  color: rgb(6, 170, 0);
+  text-shadow: 2px 2px 4px rgb(226, 87, 87);
+  margin: 20px;
+}
+
+.search {
+  color: azure;
+  font-size: larger;
+  box-shadow: 2px 2px 2px rgb(8, 71, 3);
+  margin: 5px;
+}
+
+.text {
+  height: 4vh;
+  width: 30vw;
+  font-size: larger;
+  color: seagreen;
+  font-weight: bold;
+}
+
+.searchBar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 768px) {
+  .Srandom {
+    width: 90%;
+  }
+  .Sheading,
+  .Sgenerate {
+    width: 100%;
+    font-size: large;
+  }
+  .text {
+    width: 60vw;
+    font-size: medium;
+  }
+}
+
+@media (max-width: 480px) {
+  .Sheading,
+  .Sgenerate {
+    font-size: medium;
+    height: 40px;
+  }
+  .text {
+    width: 80vw;
+    font-size: small;
+  }
+}
